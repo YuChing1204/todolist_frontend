@@ -52,12 +52,12 @@ const Todo = ({title, completed, romoveTodoItemProp, editTodoItemProp}) => {
                 </div>:
                 <>
                     <div className = "column five wide" onDoubleClick={handleDivDoubleClick}>
-                        <h2 className={"ui header" + (completedState ? " green" : "")}>{value}</h2>
+                        <h2 className={"ui header " + (completedState ? " grey" : " green")}>{value}</h2>
                     </div>
 
                     <div className = "column one wide">
                         <button type = "submit" 
-                                className= { "ui button circular icon" + (completedState ? " blue" : " green")}
+                                className= { "ui button circular icon" + (completedState ? " grey" : " green")}
                                 onClick={handleButtonClick}
                         > 
                                     <i className= "check icon white"></i> 
