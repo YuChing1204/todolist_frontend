@@ -1,6 +1,6 @@
 This app is a to-to list app that let user keep track of their tasks.
 Functions:
-1.	Add/Delete tasks.
+1.	Add/Delete tasks.<br>
 2.	Edit the tasks by double click the list items, press enter to confirm modification, press esc to undo modification.
 3.	Mark tasks as done.
 
