@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+This app is a to-to list app that let user keep track of their tasks.
+Functions:
+1.	Add/Delete tasks.
+2.	Edit the tasks by double click the list items, press enter to confirm modification, press esc to undo modification.
+3.	Mark tasks as done.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Libraries
 
-## Available Scripts
+Frontend:
+Body-parser: Body-parser is an npm library used to process data sent through an HTTP request body. It parses request and converts it into a format that can help developers extract data easily.
+Semantic UI: Semantic UI is a development framework that helps create beautiful, responsive layouts using human-friendly HTML. It allows me to design UI interface faster.
 
-In the project directory, you can run:
+Backend:
+Axios: Axios promises based HTTP client for the brower and node.js. The advantage of Axios is that it automatically converts the data to JSON. It also supports wide brosers.
+Express: Express is a fast, unopinionated, minimalist web framework for Node.js. 
+mongoose: The reason why I chose Express is that it supprts Node.js so that I can develop an Express.js backend with NPM packages.
 
-### `npm start`
+List items:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The schema I store in the database is 
+title: String,
+    completed: Boolean,
+The format is JSON.
+Title means the to-do list text, so it’s stored as string. Completed is to record if the to-do list item is completed, so it’s stored as boolean.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deployment architecture:
+I chose Heroku to deploy the project because it is free and easier for beginners. I separated front end part and back end part to deploy to two different websites. 
 
-### `npm test`
+What part of this project you had never done before:
+I never deployed project before. However, I think Heroku is a could platform that good for beginners.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GitHub links:
+https://github.com/YuChing1204/todolist_frontend.git
+https://github.com/YuChing1204/todolist_backend.git
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+URL of the live deployments:
+https://todolistwebappfrontend.herokuapp.com
