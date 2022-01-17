@@ -1,18 +1,23 @@
 This app is a to-to list app that let user keep track of their tasks.
 Functions:
-1.	Add/Delete tasks.<br>
+1.	Add/Delete tasks.
 2.	Edit the tasks by double click the list items, press enter to confirm modification, press esc to undo modification.
 3.	Mark tasks as done.
 
 Libraries
 
 Frontend:
+
 Body-parser: Body-parser is an npm library used to process data sent through an HTTP request body. It parses request and converts it into a format that can help developers extract data easily.
+
 Semantic UI: Semantic UI is a development framework that helps create beautiful, responsive layouts using human-friendly HTML. It allows me to design UI interface faster.
 
 Backend:
+
 Axios: Axios promises based HTTP client for the brower and node.js. The advantage of Axios is that it automatically converts the data to JSON. It also supports wide brosers.
+
 Express: Express is a fast, unopinionated, minimalist web framework for Node.js. 
+
 mongoose: The reason why I chose Express is that it supprts Node.js so that I can develop an Express.js backend with NPM packages.
 
 List items:
